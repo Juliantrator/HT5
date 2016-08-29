@@ -2,9 +2,9 @@
 
 
 #26/8/16
-#UVG – ADT'S
+#UVG â€“ ADT'S
 #Julio Isaac Rodriguez Esbenshade 14298
-#Julian Lopez Carne 
+#Julian Lopez 14684
 
 
 import simpy
@@ -69,7 +69,7 @@ def proceso(env, t_crea, nombre, ram, mem, ins, ins_x_t):
     
 
     #EXIT->TERMINATED
-    #devuelve memoria
+     #devuelve memoria
     yield ram.put(mem)
     print('t: %f - %s (terminated) finaliza, retorna -> %d de ram' % (env.now, nombre, mem))
 
